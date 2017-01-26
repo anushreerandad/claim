@@ -11,21 +11,21 @@
         <name>Set Loaner Location</name>
         <order/>
         <script><![CDATA[function onLoad() {
-	if (g_form.getValue('u_location_to_be_used') != '')
+	if (g_form.getValue('u_location_to_used') != '')
 		return;
-	
+
 	var city = g_scratchpad.city;
 	var country = g_scratchpad.country;
 	
     if (city && country)
-	   g_form.setValue('u_location_to_be_used', city + ', ' + country);
+	   g_form.setValue('u_location_to_used', city + ', ' + country);
 	else if (city)
-		g_form.setValue('u_location_to_be_used', city);
+		g_form.setValue('u_location_to_used', city);
 	else if (country)
-		g_form.setValue('u_location_to_be_used', country);
+		g_form.setValue('u_location_to_used', country);
 	
 	if (city || country)
-		g_form.showFieldMsg('u_location_to_be_used', 'Value set automatically - you may override by editing', 'info');
+		g_form.showFieldMsg('u_location_to_used', 'Value set automatically - you may override by editing', 'info');
 }]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -34,7 +34,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>107d9d299d603200e04a16bf0cf8778d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Set Loaner Location</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claims" source="x_snc_claims">0fff231d9d203200e04a16bf0cf87782</sys_package>
@@ -43,7 +43,7 @@
         <sys_scope display_value="Claims">0fff231d9d203200e04a16bf0cf87782</sys_scope>
         <sys_update_name>sys_script_client_107d9d299d603200e04a16bf0cf8778d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-26 01:15:13</sys_updated_on>
+        <sys_updated_on>2017-01-26 17:28:26</sys_updated_on>
         <table>x_snc_claims_twclaims</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
