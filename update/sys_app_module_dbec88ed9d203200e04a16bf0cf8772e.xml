@@ -10,14 +10,14 @@
         <hint>Create a new loaner request.</hint>
         <homepage/>
         <image/>
-        <link_type>NEW</link_type>
+        <link_type>DIRECT</link_type>
         <map_page/>
         <mobile_title>Loaner Request</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
         <name>x_snc_claims_twclaims</name>
         <order>100</order>
         <override_menu_roles>false</override_menu_roles>
-        <query/>
+        <query>com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=b36a568e9de03200e04a16bf0cf87775</query>
         <report/>
         <roles>x_snc_claims_twclaims_user</roles>
         <survey/>
@@ -25,12 +25,12 @@
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-01-25 19:23:27</sys_created_on>
-        <sys_customer_update>false</sys_customer_update>
+        <sys_customer_update>true</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dbec88ed9d203200e04a16bf0cf8772e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>Loaner Request</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create New</sys_name>
         <sys_overrides/>
         <sys_package display_value="Claims" source="x_snc_claims">0fff231d9d203200e04a16bf0cf87782</sys_package>
         <sys_policy/>
@@ -38,9 +38,9 @@
         <sys_scope display_value="Claims">0fff231d9d203200e04a16bf0cf87782</sys_scope>
         <sys_update_name>sys_app_module_dbec88ed9d203200e04a16bf0cf8772e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-01-25 19:23:27</sys_updated_on>
+        <sys_updated_on>2017-01-27 20:03:27</sys_updated_on>
         <timeline_page/>
-        <title>Loaner Request</title>
+        <title>Create New</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

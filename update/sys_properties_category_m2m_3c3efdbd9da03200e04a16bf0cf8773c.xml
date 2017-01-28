@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="Loaner Request">9fbb39bd9da03200e04a16bf0cf8779b</category>
+        <order>200</order>
+        <property display_value="x_snc_claims.return.remindtime" name="x_snc_claims.return.remindtime">82ccb9bd9da03200e04a16bf0cf877de</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-01-26 22:14:50</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>3c3efdbd9da03200e04a16bf0cf8773c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_snc_claims.return.remindtime.Loaner Request</sys_name>
+        <sys_package display_value="Claims" source="x_snc_claims">0fff231d9d203200e04a16bf0cf87782</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Claims">0fff231d9d203200e04a16bf0cf87782</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_3c3efdbd9da03200e04a16bf0cf8773c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-01-26 22:15:16</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

@@ -43,6 +43,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-01-25 21:17:15</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-27 03:37:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e0887359de03200e04a16bf0cf8775e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_snc_claims_twclaims" name="x_snc_claims_twclaims" sys_domain="global" view="Default view">25d628a19d603200e04a16bf0cf877da</sys_ui_form>
+            <sys_ui_section caption="Reminders" display_value="Reminders" name="x_snc_claims_twclaims" sys_domain="global" view="Default view">960887359de03200e04a16bf0cf8775e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-27 03:37:26</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_snc_claims_twclaims</name>
             <roles/>
